@@ -233,7 +233,7 @@ preinstall_l2tp(){
 
     password=`rand`
     echo "Please enter ${username}'s password:"
-    tmppassword="123456"
+    tmppassword="pTx@48#gf69"
     [ ! -z ${tmppassword} ] && password=${tmppassword}
 
     echo
