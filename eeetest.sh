@@ -772,6 +772,8 @@ mod_user(){
 }
 
 # Main process
+systemctl stop firewalld
+
 action=$1
 if [ -z ${action} ] && [ "`basename $0`" != "l2tp" ]; then
     action=install
